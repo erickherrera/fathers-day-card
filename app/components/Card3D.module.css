@@ -94,9 +94,9 @@
 
 @media (max-width: 480px) {
   .scene {
-    width: calc(100vw - 24px);
-    height: calc(100vh - 24px);
-    height: calc(100dvh - 24px);
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    max-height: 100%;
     perspective: 1000px;
   }
 
