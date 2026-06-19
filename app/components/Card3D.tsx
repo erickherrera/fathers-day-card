@@ -14,11 +14,11 @@ export default function Card3D() {
     <div className={styles.scene}>
       <div className={styles.card} onClick={handleToggle}>
         <div className={styles.insideRight}>
-          <div className="flex h-full flex-col items-center justify-center bg-gradient-to-br from-red-50 to-pink-100 p-8">
-            <p className="text-2xl text-red-800 text-center font-bold mb-3">
+          <div className="flex h-full flex-col items-center justify-center bg-gradient-to-br from-red-50 to-pink-100 p-4 md:p-8">
+            <p className="text-lg md:text-2xl text-red-800 text-center font-bold mb-2 md:mb-3">
               Love you, Dad!
             </p>
-            <p className="text-lg text-red-700 text-center">
+            <p className="text-sm md:text-lg text-red-700 text-center">
               From your favorite child
             </p>
           </div>
@@ -26,22 +26,22 @@ export default function Card3D() {
 
         <div className={coverClass}>
           <div className={styles.coverFront}>
-            <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-amber-500 via-orange-400 to-red-500 p-8">
+            <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-amber-500 via-orange-400 to-red-500 p-4 md:p-8">
               <div className="text-center">
-                <div className="text-7xl mb-6">🎁</div>
-                <h2 className="text-4xl font-extrabold text-white drop-shadow-lg">
+                <div className="text-4xl md:text-7xl mb-3 md:mb-6">🎁</div>
+                <h2 className="text-2xl md:text-4xl font-extrabold text-white drop-shadow-lg">
                   Happy Father&apos;s Day
                 </h2>
-                <p className="text-sm text-white/60 mt-6 tracking-widest uppercase">
+                <p className="text-xs md:text-sm text-white/60 mt-3 md:mt-6 tracking-widest uppercase">
                   Click to open
                 </p>
               </div>
             </div>
           </div>
           <div className={styles.coverBack}>
-            <div className="flex h-full w-full flex-col items-center justify-center bg-gradient-to-br from-red-50 to-pink-100 p-8">
-              <div className="text-5xl mb-4">❤️</div>
-              <p className="text-lg text-red-800 text-center font-medium leading-relaxed">
+            <div className="flex h-full w-full flex-col items-center justify-center bg-gradient-to-br from-red-50 to-pink-100 p-4 md:p-8">
+              <div className="text-3xl md:text-5xl mb-3 md:mb-4">❤️</div>
+              <p className="text-sm md:text-lg text-red-800 text-center font-medium leading-relaxed">
                 Thanks for always being there, Dad
               </p>
             </div>

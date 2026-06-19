@@ -1,7 +1,7 @@
 .scene {
   perspective: 1600px;
-  width: 640px;
-  height: 440px;
+  width: min(92vw, 640px);
+  aspect-ratio: 640 / 440;
 }
 
 .card {
@@ -90,4 +90,29 @@
   border-radius: 50%;
   transition: opacity 0.5s ease;
   pointer-events: none;
+}
+
+@media (max-width: 480px) {
+  .scene {
+    width: 94vw;
+    aspect-ratio: 3 / 4;
+    perspective: 1000px;
+  }
+
+  .insideRight {
+    border-radius: 0 8px 8px 0;
+  }
+
+  .coverFront {
+    border-radius: 0 8px 8px 0;
+  }
+
+  .coverBack {
+    border-radius: 8px 0 0 8px;
+  }
+
+  .shadow {
+    bottom: -20px;
+    height: 15px;
+  }
 }
