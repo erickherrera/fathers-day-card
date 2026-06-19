@@ -94,21 +94,35 @@
 
 @media (max-width: 480px) {
   .scene {
-    width: 94vw;
-    aspect-ratio: 3 / 4;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
     perspective: 1000px;
   }
 
   .insideRight {
-    border-radius: 0 8px 8px 0;
+    left: 0;
+    width: 100%;
+    border-left: none;
+    border-radius: 12px;
+  }
+
+  .cover {
+    left: 0;
+    width: 100%;
+    border-radius: 12px;
   }
 
   .coverFront {
-    border-radius: 0 8px 8px 0;
+    border-radius: 12px;
   }
 
   .coverBack {
-    border-radius: 8px 0 0 8px;
+    border-radius: 12px;
+  }
+
+  .crease {
+    display: none;
   }
 
   .shadow {
