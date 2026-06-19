@@ -94,10 +94,15 @@
 
 @media (max-width: 480px) {
   .scene {
-    width: 100vw;
-    height: 100vh;
-    height: 100dvh;
+    width: calc(100vw - 24px);
+    height: calc(100vh - 24px);
+    height: calc(100dvh - 24px);
     perspective: 1000px;
+  }
+
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
   }
 
   .insideRight {
@@ -126,7 +131,6 @@
   }
 
   .shadow {
-    bottom: -20px;
-    height: 15px;
+    display: none;
   }
 }
