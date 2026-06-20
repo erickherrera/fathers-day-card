@@ -30,7 +30,7 @@ export default function Card3D() {
             <p className="hidden md:block text-lg md:text-xl text-center leading-relaxed" style={{ color: '#c8a830', fontFamily: "'Limelight'" }}>
               Gracias por darme un buen comienzo, teniendo fe en que
               aterrizaré en mi propio lugar, sobre mis propios pies. Eres el
-              mejor papá que podría tener. Y siempre te querré por eso. ¡Feliz
+              mejor papá que podría tener. Y siempre te querré por eso. <br />¡Feliz
               Día del Padre!
             </p>
           </div>
