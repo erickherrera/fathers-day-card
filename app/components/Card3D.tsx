@@ -15,13 +15,13 @@ export default function Card3D() {
       <div className={styles.card} onClick={handleToggle}>
         <div className={styles.insideRight}>
           <div className="flex h-full flex-col items-center justify-center bg-white p-3 md:p-8">
-            <p className="text-sm md:text-xl text-center leading-relaxed md:hidden" style={{ color: '#c8a830', fontFamily: "'Limelight', cursive" }}>
+            <p className="text-base md:text-xl text-center leading-relaxed md:hidden" style={{ color: '#c8a830', fontFamily: "'Limelight', cursive" }}>
               Admiro que siempre te has encargado de las cosas importantes...
               queriéndome tal como soy y ayudándome a ver en quién me puedo
               convertir al mismo tiempo. Me ayudaste a entender algunas cosas,
               siempre confiando en que las resolveré por mi cuenta.
             </p>
-            <p className="text-sm md:text-xl text-center leading-relaxed md:hidden mt-4" style={{ color: '#c8a830', fontFamily: "'Limelight', cursive" }}>
+            <p className="text-base md:text-xl text-center leading-relaxed md:hidden mt-4" style={{ color: '#c8a830', fontFamily: "'Limelight', cursive" }}>
               Gracias por darme un buen comienzo, teniendo fe en que
               aterrizaré en mi propio lugar, sobre mis propios pies. Eres el
               mejor papá que podría tener. Y siempre te querré por eso. ¡Feliz
