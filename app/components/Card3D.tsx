@@ -51,7 +51,7 @@ export default function Card3D() {
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#f0c040' }}>O</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#50b070' }}>U</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#d97a30' }}>&apos;R</span>
-                  <span className="text-2xl md:text-4xl font-bold" style={{ color: '#60a0f0' }}>E</span>
+                  <span className="text-2xl md:text-4xl font-bold mr-4 md:mr-6" style={{ color: '#60a0f0' }}>E</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#d97a30' }}>T</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#50b070' }}>H</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#d97a30' }}>E</span>
@@ -70,7 +70,7 @@ export default function Card3D() {
                 <div className="flex items-center gap-1 md:gap-2 mt-2 md:mt-4">
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#f0c040' }}>f</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#50b070' }}>o</span>
-                  <span className="text-2xl md:text-4xl font-bold" style={{ color: '#d97a30' }}>r</span>
+                  <span className="text-2xl md:text-4xl font-bold mr-4 md:mr-6" style={{ color: '#d97a30' }}>r</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#4060e0' }}>R</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#d97a30' }}>E</span>
                   <span className="text-2xl md:text-4xl font-bold" style={{ color: '#60a0f0' }}>A</span>
